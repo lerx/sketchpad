@@ -4,6 +4,27 @@ body {
 	line-height:0;
 }
 
+.btn_container {
+	width: 900px;
+	margin: auto;
+	text-align: center;
+}
+
+button {
+	font: 1em "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #444;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: #F5F5F5;
+	border-radius: 4px;
+}
+
+button:hover {
+	color: #222;
+	background: #F8F8F8;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
 .container {
 	width: 900px;
 	margin: 30px auto;
@@ -11,9 +32,11 @@ body {
 
 p {
 	padding: 7px 12px;
-	font: 14px sans-serif;
+	font: 1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #555;
 	background-color: #F0F0F0;
+	border-top: 1px solid #B0B0B0;
+	border-bottom: 1px solid #B0B0B0;
 	text-align: center;
 }
 
@@ -21,10 +44,6 @@ p {
 	background-color: black;
 	border: 1px solid white;
 	display: inline-block;
-}
-
-.square_highlight {
-	background-color: blue;
 }
 
 .new_row {
