@@ -12,13 +12,21 @@ body {
 p {
 	padding: 7px 12px;
 	font: 14px sans-serif;
-	color: #666;
+	color: #555;
 	background-color: #F0F0F0;
 	text-align: center;
 }
 
 .square {
-	background: black;
+	background-color: black;
 	border: 1px solid white;
 	display: inline-block;
+}
+
+.square_highlight {
+	background-color: blue;
+}
+
+.new_row {
+	clear: both;
 }
